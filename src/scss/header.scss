@@ -1,4 +1,60 @@
 //====================================================================================================
+.header {
+	color: $blackColor;
+
+	&__container {
+		display: flex;
+		min-height: rem(90);
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__logo {
+	}
+
+	&__menu {
+		display: flex;
+	}
+	&__action {
+	}
+
+	&__button {
+	}
+}
+.menu {
+	display: flex;
+
+	&__body {
+	}
+
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: rem(35);
+	}
+
+	&__item {
+	}
+
+	&__link {
+		font-style: 600;
+		line-height: math.div(24, 16);
+	}
+
+	&__login {
+		display: inline-block;
+		text-align: center;
+		justify-content: center;
+	}
+
+	&__icon {
+	}
+}
+.icon-menu {
+}
+
+
+
 
 //====================================================================================================
 
